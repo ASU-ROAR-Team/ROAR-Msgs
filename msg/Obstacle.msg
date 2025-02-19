@@ -1,4 +1,4 @@
 std_msgs/Header header
 geometry_msgs/PoseStamped position
-Float32 radius
-Uint32 id
+std_msgs/Float32 radius
+std_msgs/Uint32 id
