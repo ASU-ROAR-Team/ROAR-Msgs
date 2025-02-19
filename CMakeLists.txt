@@ -16,6 +16,10 @@ find_package(catkin REQUIRED COMPONENTS
    ModeCommand.msg
    NodeStatus.msg
    StateCommand.msg
+   EncoderStamped.msg
+   Obstacle.msg
+   ObstacleArray.msg
+   HeartBeat.msg
  )
 
  generate_messages(
