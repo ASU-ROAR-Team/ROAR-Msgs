@@ -1,0 +1,5 @@
+# Start a Docker-Compose profile
+string profile          # e.g. "teleop", "autonomous"
+---
+bool success
+string message
