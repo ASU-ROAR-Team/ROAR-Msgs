@@ -1,5 +1,8 @@
-# Goal: empty – just trigger mode change
+# Goal: desired rover mode
+uint8 TELEOP=0
+uint8 AUTO=1
+uint8 mode   # 0=TELEOP, 1=AUTO
 ---
-# Result: empty – success means mode changed
+# Result: empty on success (actionlib SUCCESS status is enough)
 ---
-# Feedback: empty – not used
+# Feedback: empty; not used
