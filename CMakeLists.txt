@@ -15,12 +15,19 @@ find_package(catkin REQUIRED COMPONENTS
    LandmarkArray.msg
    ModeCommand.msg
    NodeStatus.msg
+   RoverStatus.msg
    StateCommand.msg
    EncoderStamped.msg
    Obstacle.msg
    ObstacleArray.msg
    HeartBeat.msg
  )
+
+ ## Generate services in the 'srv' folder
+  add_service_files(
+    FILES
+    MissionControl.srv
+  )
 
  generate_messages(
    DEPENDENCIES

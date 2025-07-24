@@ -1,0 +1,6 @@
+string request_type  # "start", "stop", "reset"
+string mission_name  # "Navigation", "Sampling", "Maintenance", "Teleoperation"
+---
+bool success
+string message
+string current_state  # "IDLE", "RUNNING", "PAUSED", "ERROR", "EMERGENCY_STOP"

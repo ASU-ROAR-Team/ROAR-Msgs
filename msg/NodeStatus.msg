@@ -1,9 +1,6 @@
-std_msgs/Header header
-
-uint8 status
-string message
-
-uint8 OFFLINE = 0 # Module ready to launch node
-uint8 ONLINE = 1 # Module launched node (node running)
-uint8 UNRESPONSIVE = 2 # Node unresponsive (no heartbeat)
-uint8 ERROR = 3 # Module Error
+string node_name
+string status          # "RUNNING", "STOPPED", "ERROR", "UNKNOWN"
+float32 cpu_usage      # percentage
+float32 memory_usage   # MB
+int32 pid
+string last_error
