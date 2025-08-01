@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   geometry_msgs
+  actionlib_msgs
 )
 
 add_message_files(
@@ -42,6 +43,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
+  actionlib_msgs
 )
 
 catkin_package(
@@ -51,6 +53,7 @@ catkin_package(
   rospy
   std_msgs
   geometry_msgs
+  actionlib_msgs
 )
 
 include_directories(
