@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
+  Drilling.msg
   Landmark.msg
   LandmarkArray.msg
   ModeCommand.msg
