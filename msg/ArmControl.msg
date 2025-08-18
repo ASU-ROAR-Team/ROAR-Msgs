@@ -10,4 +10,4 @@ float32 end_effector
 
 # Flags
 bool regolith
-bool sand
+bool rock
