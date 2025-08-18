@@ -23,6 +23,7 @@ add_message_files(
   ObstacleArray.msg
   HeartBeat.msg
   IndicatorLight.msg
+  ArmControl.msg
 )
 
 ## Generate services in the 'srv' folder
