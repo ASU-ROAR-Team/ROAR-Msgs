@@ -12,6 +12,10 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
+  LightTower.msg
+  DrillingCommand.msg
+  DrillingManualInput.msg
+  DrillingStatus.msg
   Landmark.msg
   LandmarkArray.msg
   ModeCommand.msg
