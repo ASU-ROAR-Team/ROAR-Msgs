@@ -1,5 +1,5 @@
 string request_type  # "start", "stop", "reset"
-string mission_name  # "Navigation", "Sampling", "Maintenance", "Teleoperation"
+string mission_name  # "Navigation", "Sampling", "Maintenance","Drilling", "Teleoperation"
 ---
 bool success
 string message
